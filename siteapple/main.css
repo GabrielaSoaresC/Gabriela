@@ -1,0 +1,345 @@
+* {font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+
+.h3{
+color: white;
+margin-top: 20px;
+
+}
+
+/* Navbar */
+
+.navbar {
+    height: 44px;
+    width: 100%;
+    background-color: #333333;
+
+}
+
+.navlista {
+    display: flex;
+    color: rgb(196, 195, 195);
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-size: 1em;
+    margin-left: 190px;
+
+}
+
+.navlista li {
+    font-size: 15px;
+    margin-left: 75px;
+    margin-top: 12px;
+}
+
+.list {
+    padding-top: 12px;
+}
+
+
+.navlista li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.navcontent-min {
+    display: none;
+}
+
+
+/* Fim Navbar */
+
+.barra {
+    height: 44px;
+    width: 100%;
+    background-color: #F5F5F7;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* Anuncio 1 */
+.anuncio1 {
+    height: 640px;
+    width: 100%;
+    background-color: #FBFBFD;
+   
+
+    text-align: center;
+    padding-top: 50px;
+
+
+
+    background-image: url(./img/iphone12.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.sub1 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+/* Anuncio 2 */
+
+.anuncio2 {
+    height: 684px;
+    width: 100%;
+    background-color: #FBFBFD;
+    margin-top: 10px;
+
+    text-align: center;
+    padding-top: 50px;
+    color: #F5F5F7;
+
+    background-image: url(./img/iphone121.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.sub2 {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+/* Anuncio 3 */
+
+.anuncio3 {
+    height: 684px;
+    width: 100%;
+    background-color: #FBFBFD;
+    margin-top: 10px;
+
+    text-align: center;
+    padding-top: 50px;
+    color: #F5F5F7;
+
+    background-image: url(./img/iphone122.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.sub3 {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.sub4 {
+    display: inline-block;
+    
+    
+}
+
+
+/* Grids */
+
+.row {
+    width: 100%;
+    margin: auto;
+}
+
+/* Grid-Anuncio 1 */
+
+.coluna1 {
+    background-image: url(./img/promo1.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Grid-Anuncio 2 */
+
+.coluna2 {
+    background-image: url(./img/promo2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Grid-Anuncio 3 */
+
+.coluna3 {
+    background-image: url(./img/promo3.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Grid-Anuncio 4 */
+
+.coluna4 {
+    background-image: url(./img/promo4.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Grid-Anuncio 5 */
+
+.coluna5 {
+    background-image: url(./img/promo5.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Grid-Anuncio 6 */
+
+.coluna6 {
+    background-image: url(./img/promo6.jpg);
+    background-size: cover;
+    background-position-x: center;
+    border: 5px solid white;
+
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.ted {
+    font-size: 55px;
+    padding-top: 390px;
+}
+
+.ted1 {
+    font-size: 17px;
+}
+
+/* Fim Grids */
+
+/* Footer */
+
+.footer {
+    background-color: #F5F5F7;
+    height: 619.72px;
+    width: 100%;
+}
+
+/*  */
+
+
+@media screen and (max-width: 540px) {
+
+    /* classes gerais */
+    .row {
+
+        height: 100%;
+        
+    }
+
+    .col {
+        height: 500px;
+    
+    }
+
+
+    /* navbar */
+    .navbar {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        background-color: #333333;
+        width: auto;
+        height: 44px;
+        display: flex;
+        color: #f5f5f7bd;
+        font-size: 14px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+
+    .navconteudo {
+        display: none;
+    }
+
+
+    .navcontent-min {
+        width: 100%;
+        display: flex;
+        padding-right: 5%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navcontent-min ul {
+        font-size: 0;
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0;
+    }
+
+    .navcontent-min ul li {
+        display: inline-block;
+        
+    
+}
+/* titulos e subtitulos */
+
+.header h3 {
+    font-size: 20px;
+}
+
+.header-links a {
+    font-size: 19px;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* conteudos */
+
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.coluna2 {
+    text-align: center;
+    padding-top: 0;
+}
+
+
+.footer{
+    height: 1000px;
+}
+
+}
